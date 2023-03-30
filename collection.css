@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.jeu{
+    border-radius:5px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 25px;
+    background: rgba(175, 23, 3, 0.3);
+    border: 2px solid #3d2e2e;
+    border-radius: 60px/20px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: .4s;
+    /* visibility: visible; */
+    /* opacity: 0; */
+}
+
+/* .overlay:target {
+    visibility: inherit;
+    opacity: 1;
+} */
+
+.popup{
+    margin: 6rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+}
